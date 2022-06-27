@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in runner.TestRunner
+initializationError(runner.TestRunner)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: C:\Users\Edrees\eclipse-workspace\us.tekschool.titans.capstone\.\src\test\resources\Features
+
