@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
+import utilities.WebDriverUtility;
 
 public class LaptopNoteBooksPageObject extends Base {
 	
@@ -13,102 +14,105 @@ public class LaptopNoteBooksPageObject extends Base {
 		// is a selenium class and will initliaze the values
 		
 		// Scenario: Add and Remove a Mac book from Cart 
-
 	}
+		
+	@FindBy(xpath ="//a[text() ='Laptops & Notebooks']")
+	private WebElement userClickLaptops; 
 	
-	@FindBy(xpath = "//a[text() ='Laptops & Notebooks']")
-	private WebElement userClickLaptopAndNoteBook; 
+	@FindBy(xpath = "//a[text()='Show All Laptops & Notebooks']")
+	private WebElement userClickShowAll; 
 	
-	@FindBy(xpath = "//a[text() = 'Show All Laptops & Notebooks']")
-	private WebElement userclickOnAllLaptop; 
+	@FindBy(xpath = "//a[text() ='MacBook']")
+	private WebElement userClickMacBook;
 	
-	@FindBy(xpath = "//a[text() = 'MacBook']")
-	private WebElement userClickOnMacBook; 
+	@FindBy(xpath = "//a[text() ='MacBook']")
+	private WebElement userSeeSuccessMessage; 
 	
-	@FindBy(xpath = "cart-total")
-	private WebElement userSeeCartTotal; 
 	
-	@FindBy(xpath = "cart-total")
+	@FindBy(id = "cart-total")
+	private WebElement userSeeCartValue; 
+	
+	@FindBy(id = "cart-total")
 	private WebElement userClickCartOption; 
 	
 	@FindBy(xpath = "//button[@title='Remove']")
 	private WebElement userClickRemove; 
 	
-	@FindBy(id= "cart-total")
-	private WebElement userSee0Items; 
+	@FindBy(id = "cart-total")
+	private WebElement userSeeEmptyCart; 
 	
-	
-	public void userClickLaptopAndNoteBookButton() {
-		userClickLaptopAndNoteBook.click();
+	public void userClickLaptopAndDesktopTab() {
+		WebDriverUtility.moveToElement(userClickLaptops);
+	}
+	public void userClickShowAllButton() {
+		WebDriverUtility.moveToElement(userClickShowAll);
 	}
 	
-	public void userClickOnShowAll() {
-		userclickOnAllLaptop.click();
+	public void userClickMacBook() {
+		userClickMacBook.click();
 	}
 	
-	public void userClickOnMacBookButton() {
-		userClickOnMacBook.click();
+	public String userSeeSucessMessage() {
+		
+		String actualMessage = "Success: You have added " +userSeeSuccessMessage.getText()+ " to your shopping cart!";
+		return actualMessage; 
 	}
-	
-	public String userSeeTotalAndQuantity() {
-	// check this part with Ustad 
-	return	userSeeCartTotal.getText(); 
-	}
-	
-	public void userClickCarOptionButton() {
+	public void userClickCartOption() {
 		userClickCartOption.click();
+	}
+	
+	public String userSeeCartValue() {
+		return userSeeCartValue.getText();
+	}
+	public void userClickRemove() {
+		userClickRemove.click(); 
+	}
+	
+	public String  userSeeEmptyCart() {
+		return userSeeEmptyCart.getText(); 
+	}
+	
+	
+	
+	
+	
+	
 		
-	}
-	public void userClickRemoveButton() {
-		userClickRemove.click();
-	}
-	public boolean  userSeeZeroItemsMessage() {
-		return userSee0Items.getText().contains("0 item(s)"); 
-		
-	}
-	
-	//Scenario: Product Comparison 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
 	
 	
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

@@ -39,35 +39,6 @@ public class RetailPageObject extends Base {
 	@FindBy(xpath = "//h2[text()='My Account']")
 	private WebElement myAccountDash;
 	
-	//Second Scenario 
-
-	@FindBy(xpath = "//a[text()='Register for an affiliate account']")
-	private WebElement affiliateAccountReg;
-
-	@FindBy(id = "input-company")
-	private WebElement companyName;
-
-	@FindBy(id = "input-website")
-	private WebElement webSiteName;
-
-	@FindBy(id = "input-tax")
-	private WebElement TaxID;
-
-	@FindBy(xpath = "//input[@value='cheque']")
-	private WebElement cheque;
-
-	@FindBy(id = "input-cheque")
-	private WebElement payeeName;
-
-	@FindBy(xpath = "//input[@type='checkbox']")
-	private WebElement abouUsCheck;
-
-	@FindBy(xpath = "//input[@type='submit']")
-	private WebElement continueButton;
-
-	@FindBy(xpath = "//div[@class = 'alert alert-success alert-dismissible']")
-	private WebElement successMessage;
-	
 	public boolean userIsOnWebsite() {
 		if(retailWebsite.isDisplayed())
 			return true; 
@@ -99,8 +70,42 @@ public class RetailPageObject extends Base {
 		else
 		return false; 
 	}
+	//Second: Register as an Affiliate user with Cheque Payment Method
+
+	@FindBy(xpath = "//a[text()='Register for an affiliate account']")
+	private WebElement affiliateAccountReg;
+
+	@FindBy(id = "input-company")
+	private WebElement companyName;
+
+	@FindBy(id = "input-website")
+	private WebElement webSiteName;
+
+	@FindBy(id = "input-tax")
+	private WebElement TaxID;
+
+	@FindBy(xpath = "//input[@value='cheque']")
+	private WebElement chequeButton;
 	
-	// Second Scenario 
+	@FindBy(xpath = "//input[@value='paypal']")
+	private WebElement paypalButton;
+
+	@FindBy(xpath = "//input[@value='bank']")
+	private WebElement bankButton;
+
+	@FindBy(id = "input-cheque")
+	private WebElement payeeName;
+	
+	@FindBy(xpath = "//input[@type='checkbox']")
+	private WebElement abouUsCheck;
+
+	@FindBy(xpath = "//input[@type='submit']")
+	private WebElement continueButton;
+
+	@FindBy(xpath = "//div[@class = 'alert alert-success alert-dismissible']")
+	private WebElement successMessage;
+	
+	
 	public void userClickOnMyAffiliateAccountReg() {
 		affiliateAccountReg.click();
 	}
@@ -115,12 +120,9 @@ public class RetailPageObject extends Base {
 	public void userProvideTaxID(String taxID) {
 		TaxID.sendKeys(taxID);
 	}
-	public void userClickPaymentMethod(String chequeClick) {
-		if (chequeClick.trim().equalsIgnoreCase("cheque"))
-		if (!cheque.isSelected()){
-			cheque.click();
-		}
-
+	public void userClickPaymentMethod(String paymentType) {
+		if (paymentType.trim().equalsIgnoreCase("cheque"))
+		chequeButton.click();
 	}
 	
 	public void userProvidePayeename(String payee) {
@@ -199,15 +201,22 @@ public class RetailPageObject extends Base {
 		swiftCode.sendKeys(swiftValue);
 	}
 	
+	
 	public void userProvideAccountName(String accoutValue) {
+		accountName.clear();
+		accountName.sendKeys(accoutValue);
+	}
+	
+	public void userProvideAccountNumber(String accountNumberValue) {
 		accountNumber.clear();
-		accountNumber.sendKeys(accoutValue);
+		accountNumber.sendKeys(accountNumberValue);
 	}
 	
 	public void userClickOnContinue() {
 		clickContinue.click();
-		
 	}
+	
+	
 	
 	public boolean userSeeSecondSuccessMessage() {
 		return secondSuccessMessage.isDisplayed(); 
@@ -233,7 +242,7 @@ public class RetailPageObject extends Base {
 	private WebElement continueButton1; 
 	
 	@FindBy(xpath = "//div[text() = ' Success: Your account has been successfully updated.']" )
-	private WebElement successMessage2; 
+	private WebElement actualMessage; 
 	
 	
 	public void userClickOnEditAccount() {
@@ -265,9 +274,9 @@ public class RetailPageObject extends Base {
 
 	public String userSeeSuccessMessage1() {
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
-		js.executeScript("arguments[0].style.border='3px solid red'", successMessage2); 
+		js.executeScript("arguments[0].style.border='3px solid red'", actualMessage); 
 		//String actualText = WebDriverUtility.getText(successMessage2); 
-		return successMessage2.getText(); 
+		return actualMessage.getText(); 
 		
 		
 		/*

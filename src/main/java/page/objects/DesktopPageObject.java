@@ -56,8 +56,8 @@ public class DesktopPageObject extends Base {
 	@FindBy(xpath= "//button[text() = 'Add to Cart']")
 	private WebElement userClickOnAddToCart; 
 	
-	@FindBy(xpath = "(//a[text()= 'HP LP3065'])[3]")
-	private WebElement userSeeSuceessMessageSecond; 
+	@FindBy(xpath = "(//a[text()='HP LP3065'])[3]")
+	private WebElement userSeeSuceessMessage; 
 	
 	public void userClickonHPLPAddToCart() {
 		userClickOnHPLPAddToCart.click();
@@ -74,9 +74,11 @@ public class DesktopPageObject extends Base {
 	
 	public String userSeeSuccessMessage() {
 		JavascriptExecutor js = ((JavascriptExecutor)driver);
-		js.executeScript("arguments[0].style.border='3px solid red'", userSeeSuceessMessageSecond); 
-		String actulResult = "Success: You have added" + userSeeSuceessMessageSecond.getText() + "to your shopping cart!"; 
+		js.executeScript("arguments[0].style.border='3px solid red'", userSeeSuceessMessage); 
+		String actulResult = "Success: you have added " +userSeeSuceessMessage.getText()+" to your Shopping cart!"; 
+	
 		return actulResult; 
+		
 	}
 	
 	//Third : 	Scenario: User add Canon EOS 5D from Desktops tab to the cart
@@ -92,7 +94,7 @@ public class DesktopPageObject extends Base {
 	@FindBy(id= "button-cart")
 	private WebElement userClickAddToCart; 
 	
-	@FindBy(xpath = "//div[@class= 'alert alert-success alert-dismissible']")
+	@FindBy(xpath = "(//a[text()= 'Canon EOS 5D Camera'])[3]")
 	private WebElement userSeeCacnon5DAddedMessage; 
 	/*
 	 *     public void verifytext() {
@@ -122,8 +124,11 @@ public class DesktopPageObject extends Base {
 	}
 	
 	public String  userSuccessAddedMessage() {
-		return userSeeCacnon5DAddedMessage.getText(); 
+		JavascriptExecutor js = ((JavascriptExecutor)driver);
+		js.executeScript("arguments[0].style.border='3px solid red'", userSeeCacnon5DAddedMessage); 
+		String actulResult = "Success: You have added " +userSeeCacnon5DAddedMessage.getText()+" to your shopping cart!"; 
 		
+		return actulResult; 
 		
 //		if(userSeeCacnon5DAddedMessage.getText().equalsIgnoreCase
 //				("Success: You have added Canon EOS 5D to your shopping cart!"));
@@ -131,7 +136,7 @@ public class DesktopPageObject extends Base {
 //		System.out.println(userSeeCacnon5DAddedMessage.getText());
 	}
 	
-	//forth scenario: 
+	//User add a review to Canon EOS 5D item in Desktops tab 
 	
 	@FindBy(xpath = "//a[text() = 'Canon EOS 5D Camera']")
 	private WebElement userClickOnCanonEOSCanon;
@@ -145,8 +150,8 @@ public class DesktopPageObject extends Base {
 	@FindBy(id = "input-review")
 	private WebElement userTypeReview; 
 	
-	@FindBy(xpath ="//*[@id=\"form-review\"]/div[5]/div/text()[6]")
-	private WebElement userClickRating; 
+	@FindBy(xpath ="//input[@type='radio']")
+	private List<WebElement> userClickRating; 
 	
 	@FindBy(id = "button-review")
 	private WebElement userClickContinue; 
@@ -171,20 +176,29 @@ public class DesktopPageObject extends Base {
 		userTypeReview.sendKeys(review); 
 	}
 	
-	public void userClickRating(String good) {
-		if(good.equalsIgnoreCase("good"));
-		userClickRating.click();
+//	public void userClickRating(String rating) {
+//		if(rating.equalsIgnoreCase("good"));
+//		userClickRating.click();
+//	}
+	
+	public void userSelectRating(String ratingValue) {
+		List<WebElement> rating = userClickRating; 
+		for(WebElement element: rating) {
+			if(element.getAttribute("value").equalsIgnoreCase(ratingValue.trim())); 
+			element.click();
+			break; 
+		}
 	}
 	
 	public void userClickContinue() {
 		userClickContinue.click();
 	}
 	
-//	public String userSeeSuccessMessage() {
-//		JavascriptExecutor js = ((JavascriptExecutor)driver);
-//		js.executeScript("arguments[0].style.border='3px solid red'", UserSeeThirdSuccessMessage); 
-//		return UserSeeThirdSuccessMessage.getText(); 
-//	}
+	public String userSeeSuccessMessageReview() {
+		JavascriptExecutor js = ((JavascriptExecutor)driver);
+		js.executeScript("arguments[0].style.border='3px solid red'", UserSeeThirdSuccessMessage); 
+		return UserSeeThirdSuccessMessage.getText(); 
+	}
 	
 	
 	

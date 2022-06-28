@@ -20,7 +20,7 @@ public class RetailStepDefinition extends Base {
 	
 	
 	
-	// First Scenario 
+	// Background Scenario 
 	@Given("User is on Retail Website")
 	public void user_is_on_retail_website() {
 		retail.userIsOnWebsite(); 
@@ -58,7 +58,7 @@ public class RetailStepDefinition extends Base {
 		Assert.assertTrue(retail.userMyAccountDash());
 		logger.info("User is on my Account page");	
 		
-	
+	//Second: Register as an Affiliate user with Cheque Payment Method
 	}
 	@When("User click on {string} link")
 	public void user_click_on_link(String string) {
@@ -91,14 +91,14 @@ public class RetailStepDefinition extends Base {
 	}
 	
 	@Then("User should see a success message")
-	public void user_should_see_a_success_message() {
+	public void user_should_see_a_success_message_retail() {
 	  Assert.assertTrue(retail.userSeeSuccessMessage());
-	  logger.info("User see a success message");
+	  logger.info("The result is " + retail.userSeeSuccessMessage());
 	  WebDriverUtility.takeScreenShot();
 	  
 	}
 	
-	//Second Scenario 
+	//Scenario: Edit your affiliate information from Cheque payment
 	
 	@When("User click on 'Edit your affiliate information'link")
 	public void user_click_on_edit_your_affiliate_information_link() {
@@ -119,7 +119,7 @@ public class RetailStepDefinition extends Base {
 		retail.userProvideBranchNumber(userInfo.get(0).get("abaNumber"));
 		retail.userProvideSwift(userInfo.get(0).get("swiftCode"));
 		retail.userProvideAccountName(userInfo.get(0).get("accountName"));
-		retail.userProvideBranchNumber(userInfo.get(0).get("accountNumber"));
+		retail.userProvideAccountNumber(userInfo.get(0).get("accountNumber"));
 		WebDriverUtility.takeScreenShot();
 		
 		hardWait();
@@ -127,7 +127,7 @@ public class RetailStepDefinition extends Base {
 	
 	
 	
-	//Third scenario 
+	//Scenario: Edit your account Information 
 	
 	@When("User clic on {string} link")
 	public void user_clic_on_link(String string) {
@@ -146,9 +146,9 @@ public class RetailStepDefinition extends Base {
 	   
 	}
 	
-	@Then("User should see a message {string}")
-	public void user_should_see_a_message(String expectedMessage) {
-		Assert.assertEquals(expectedMessage,retail.userSeeSuccessMessage()); 
+	@Then("User should see a message retail {string}")
+	public void user_should_see_a_message_retail(String expectedMessage) {
+		Assert.assertTrue(expectedMessage,retail.userSeeSuccessMessage()); 
 		
 		WebDriverUtility.takeScreenShot();
 		logger.info("actual message" + retail.userSeeSuccessMessage() + " " + "equals" + expectedMessage);

@@ -38,7 +38,7 @@ public class DesktopPageStepDefinition extends Base {
 	List<WebElement> desktopItems = desktop.userSeeAllDesktopItems(); 
 	for(WebElement element:desktopItems ) { 
 		Assert.assertTrue(element.isDisplayed());
-		logger.info(element.getAttribute("title" + " is present"));
+		logger.info(element.getAttribute("title") + " is present");
 		WebDriverUtility.takeScreenShot();
 	}
 		
@@ -73,17 +73,18 @@ public class DesktopPageStepDefinition extends Base {
 		  
 		}
 		
-		@Then("User should see a message {string}")
-		public void user_should_see_a_message (String ExpectedsuccessMessage) {
-			Assert.assertEquals(desktop.userSeeSuccessMessage(), ExpectedsuccessMessage);
+		@Then("User should see a message HP {string}")
+		public void user_should_see_a_message_HP (String ExpectedsuccessMessage) {
+			//System.out.println(desktop.userSeeSuccessMessage() + "This is from print");
+			Assert.assertEquals(ExpectedsuccessMessage, desktop.userSeeSuccessMessage());
 			logger.info(ExpectedsuccessMessage + " Matches " + desktop.userSeeSuccessMessage());
 			WebDriverUtility.takeScreenShot();
 		}	
 	// or we can write 
-		public boolean isSuccessMessagePresent() {
-			return true; 
-		}
-		    
+//		public boolean isSuccessMessagePresent() {
+//			return true; 
+//		}
+//		    
 		
 	//Third : 	Scenario: User add Canon EOS 5D from Desktops tab to the cart
 		
@@ -104,12 +105,13 @@ public class DesktopPageStepDefinition extends Base {
 		public void user_select_quantity(Integer int1) {
 		
 		}
-//		@Then("User should see a message {string}")
-//		public void user_should_see_a_message (String actualMessage) {
-//			Assert.assertEquals(actualMessage, desktop.userSuccessAddedMessage());
-//			logger.info("Actual message" + actualMessage + " " + "expected" + desktop
-//					.userSuccessAddedMessage());
-//		}
+		@Then("User should see a message Canon {string}")
+		public void user_should_see_a_message_canon (String actualMessage) {
+			System.out.println(desktop.userSuccessAddedMessage() + "Test Print");
+			Assert.assertEquals(actualMessage, desktop.userSuccessAddedMessage());
+			logger.info("Actual message" + actualMessage + " " + "expected" + desktop
+					.userSuccessAddedMessage());
+		}
 	
 	
 	//Forth: Scenario: User add a review to Canon EOS 5D item inDesktops tab
@@ -124,14 +126,14 @@ public class DesktopPageStepDefinition extends Base {
 		public void user_click_on_write_a_review_link() {
 			desktop.userClickReview();
 			logger.info("User click on review button");
-		 
+		 WebDriverUtility.hardWait();
 		}
 		@Given("user fill the review information with below information")
 		public void user_fill_the_review_information_with_below_information(DataTable dataTable) {
 		List<Map<String, String>> info = dataTable.asMaps(String.class, String.class);  
 		desktop.userProvideName(info.get(0).get("yourname"));
 		desktop.userWriteReview(info.get(0).get("yourReview"));
-		desktop.userClickRating(info.get(0).get("Good")); 
+		desktop.userSelectRating(info.get(0).get("Rating")); 
 		WebDriverUtility.takeScreenShot();
 	}
 		@Given("User click on Continue Button")
@@ -142,9 +144,9 @@ public class DesktopPageStepDefinition extends Base {
 		
 		@Then("User should see a message with {string}")
 		public void user_should_see_a_message_with(String string) {
-		Assert.assertEquals(string, desktop.userSeeSuccessMessage());
+		Assert.assertEquals(string, desktop.userSeeSuccessMessageReview());
 		logger.info("Expected message" + string + " " + "Actual Message" +
-		desktop.userSeeSuccessMessage());
+		desktop.userSeeSuccessMessageReview());
 		WebDriverUtility.takeScreenShot();
 		
 			
