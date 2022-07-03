@@ -1247,3 +1247,294 @@
 2022-06-28 01:28:59,200 [main] INFO .\src\test\resources\input\log4j.properties - User remove the added items
 2022-06-28 01:29:04,246 [main] INFO .\src\test\resources\input\log4j.properties - 0 item(s) - $0.00 Matches 0 item(s) - $0.00
 2022-06-28 01:29:09,438 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdd and Remove a Mac book from CartPASSED
+2022-06-28 11:52:48,899 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 11:52:56,205 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 11:52:56,352 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 11:52:56,487 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 11:52:56,716 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonUNDEFINED
+2022-06-28 12:52:24,360 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 12:52:26,794 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 12:52:27,031 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 12:52:27,215 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 12:52:27,484 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 12:54:41,602 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 12:54:43,672 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 12:54:43,915 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 12:54:44,104 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 12:54:44,401 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 12:55:44,741 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 12:55:46,876 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 12:55:47,137 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 12:55:47,266 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 12:55:47,427 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:02:02,766 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:02:04,830 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:02:05,075 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:02:05,206 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:02:05,365 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:03:17,538 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:03:19,659 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:03:19,810 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:03:20,017 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:03:20,246 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonUNDEFINED
+2022-06-28 13:04:19,908 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:04:21,960 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:04:22,175 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:04:22,305 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:04:52,463 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:06:11,197 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:06:13,346 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:06:13,571 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:06:13,751 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:06:43,953 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:08:43,466 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:08:45,635 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:08:45,849 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:21:32,271 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:21:34,449 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:21:34,628 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:21:34,771 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:21:34,839 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:21:34,884 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:21:34,957 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:22:05,110 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:28:52,055 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:28:53,974 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:28:54,201 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:28:54,397 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:28:54,637 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonUNDEFINED
+2022-06-28 13:30:32,544 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:30:34,591 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:30:34,814 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:30:34,997 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:30:35,076 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:30:35,144 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 13:30:35,193 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:30:35,351 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:34:04,707 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:34:06,632 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:34:06,833 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:34:07,016 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:34:07,090 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:34:07,158 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 13:34:07,207 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:34:07,466 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:36:11,913 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:36:13,967 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:36:14,201 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:36:14,328 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:36:14,402 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:36:14,470 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 13:36:14,526 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:36:14,822 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:38:51,330 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:38:54,206 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:38:54,359 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:38:54,491 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:38:54,576 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:38:54,641 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 13:38:54,672 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:38:55,065 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 13:41:16,950 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:41:20,264 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:41:20,402 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:41:20,542 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:41:20,623 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:41:20,709 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 13:41:20,749 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:41:21,334 [main] INFO .\src\test\resources\input\log4j.properties - User click on comparison button
+2022-06-28 13:41:21,393 [main] INFO .\src\test\resources\input\log4j.properties - Comparison chart is displayed
+2022-06-28 13:41:21,576 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonPASSED
+2022-06-28 13:42:59,194 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 13:43:02,213 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:43:02,356 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:43:02,492 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:43:02,579 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 13:43:04,632 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 13:43:06,667 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 13:43:09,171 [main] INFO .\src\test\resources\input\log4j.properties - User click on comparison button
+2022-06-28 13:43:11,218 [main] INFO .\src\test\resources\input\log4j.properties - Comparison chart is displayed
+2022-06-28 13:43:13,351 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonPASSED
+2022-06-28 13:49:59,721 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 13:50:03,709 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 13:50:03,852 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 13:50:03,994 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 13:50:04,252 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listUNDEFINED
+2022-06-28 14:03:10,096 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:03:12,061 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:03:12,303 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:03:12,497 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:03:12,638 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:05:23,299 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:05:25,706 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:05:25,852 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:05:25,996 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:05:56,164 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:06:39,329 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:06:43,026 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:06:43,168 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:06:43,313 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:07:13,457 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:13:57,936 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:13:59,912 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:14:00,138 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:14:00,342 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:14:30,466 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:16:34,077 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:16:36,018 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:16:36,263 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:16:36,466 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:16:46,640 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:16:54,341 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:16:56,302 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:16:56,499 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:16:56,626 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:17:26,751 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:19:53,946 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:19:56,076 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:19:56,264 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:19:56,400 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:20:26,508 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:23:57,222 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:23:59,480 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:23:59,652 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:23:59,785 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:24:29,952 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:26:31,525 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:26:33,788 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:26:33,951 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:26:34,084 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:27:04,209 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:33:58,730 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:34:01,069 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:34:01,253 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:34:01,385 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:34:31,633 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:35:18,996 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 14:35:21,223 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:35:21,389 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:35:21,519 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:35:21,591 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 14:35:23,659 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 14:35:25,688 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 14:35:28,005 [main] INFO .\src\test\resources\input\log4j.properties - User click on comparison button
+2022-06-28 14:35:30,048 [main] INFO .\src\test\resources\input\log4j.properties - Comparison chart is displayed
+2022-06-28 14:35:32,177 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonPASSED
+2022-06-28 14:35:32,206 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:35:33,970 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:35:34,139 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:35:34,285 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:36:04,488 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:36:37,309 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 14:36:39,637 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:36:39,802 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:36:39,954 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:36:40,046 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 14:36:42,105 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 14:36:44,141 [main] INFO .\src\test\resources\input\log4j.properties - User Click on MacAir comparison button
+2022-06-28 14:36:46,444 [main] INFO .\src\test\resources\input\log4j.properties - User click on comparison button
+2022-06-28 14:36:48,487 [main] INFO .\src\test\resources\input\log4j.properties - Comparison chart is displayed
+2022-06-28 14:36:50,554 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonPASSED
+2022-06-28 14:36:50,573 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 14:36:52,425 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 14:41:43,956 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct Comparisonstarted
+2022-06-28 14:41:46,215 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 14:41:46,375 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 14:41:46,520 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 14:41:46,587 [main] INFO .\src\test\resources\input\log4j.properties - User click Mac Book Comparison button
+2022-06-28 14:41:48,652 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacAir comparison button
+2022-06-28 14:42:20,804 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioProduct ComparisonFAILED
+2022-06-28 18:10:21,402 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 18:10:47,282 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 18:10:47,435 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 18:10:47,582 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 18:11:17,838 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 18:13:40,158 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 18:13:42,235 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 18:13:42,455 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 18:13:42,585 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 18:14:12,759 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 19:44:35,543 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000started
+2022-06-28 19:44:45,729 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 19:44:45,877 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 19:44:46,026 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 19:44:46,249 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000UNDEFINED
+2022-06-28 19:45:51,368 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000started
+2022-06-28 19:45:58,222 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 19:45:58,365 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 19:45:58,498 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 19:45:58,808 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000UNDEFINED
+2022-06-28 19:47:33,046 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000started
+2022-06-28 19:47:47,207 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 19:47:47,368 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000FAILED
+2022-06-28 19:59:28,796 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000started
+2022-06-28 19:59:44,003 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 19:59:44,157 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 19:59:44,291 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:00:14,672 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000FAILED
+2022-06-28 20:08:26,527 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 20:08:29,305 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:08:29,453 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:08:29,583 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:08:59,876 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 20:08:59,918 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000started
+2022-06-28 20:09:04,265 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:09:04,402 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:09:04,537 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:09:34,754 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000FAILED
+2022-06-28 20:10:06,131 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 20:10:09,469 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:10:09,614 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:10:10,269 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:10:40,540 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 20:10:40,585 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000started
+2022-06-28 20:10:43,670 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:10:43,808 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:10:44,336 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:10:49,628 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacBook Pro
+2022-06-28 20:10:54,684 [main] INFO .\src\test\resources\input\log4j.properties - $2,000.00it mataches $2,000.00
+2022-06-28 20:10:59,919 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioValidate the price of MacBook Pro is 2000PASSED
+2022-06-28 20:14:51,035 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 20:14:56,526 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:14:56,658 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:14:57,236 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:14:57,295 [main] INFO .\src\test\resources\input\log4j.properties - User add the sony VAIO to wish list
+2022-06-28 20:14:57,608 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 20:17:10,652 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 20:17:13,954 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:17:14,094 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:17:14,576 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:17:14,653 [main] INFO .\src\test\resources\input\log4j.properties - User add the sony VAIO to wish list
+2022-06-28 20:17:14,941 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listFAILED
+2022-06-28 20:18:58,062 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish liststarted
+2022-06-28 20:19:02,159 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-06-28 20:19:02,298 [main] INFO .\src\test\resources\input\log4j.properties - User clicks on All Desktop and Laptop button
+2022-06-28 20:19:02,997 [main] INFO .\src\test\resources\input\log4j.properties - User click on show all the options
+2022-06-28 20:19:03,064 [main] INFO .\src\test\resources\input\log4j.properties - User add the sony VAIO to wish list
+2022-06-28 20:19:03,129 [main] INFO .\src\test\resources\input\log4j.properties - You must login or create an account to save Sony VAIO to your wish list!matchesYou must login or create an account to save Sony VAIO to your wish list!
+2022-06-28 20:19:08,524 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdding an item to Wish listPASSED
+2022-06-28 20:26:01,006 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify currency values changestarted
+2022-06-28 20:26:03,916 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify currency values changeUNDEFINED
+2022-06-28 20:26:03,964 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser empty Shopping cart message displaysstarted
+2022-06-28 20:26:06,488 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser empty Shopping cart message displaysUNDEFINED
+2022-06-28 20:53:03,231 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify currency values changestarted
+2022-06-28 20:53:07,961 [main] INFO .\src\test\resources\input\log4j.properties - trueis present
+2022-06-28 20:53:08,023 [main] INFO .\src\test\resources\input\log4j.properties - User click on Currency Button
+2022-06-28 20:53:13,503 [main] INFO .\src\test\resources\input\log4j.properties - User click on Euro Currency
+2022-06-28 20:53:18,567 [main] INFO .\src\test\resources\input\log4j.properties - true Euro is present
+2022-06-28 20:53:24,144 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify currency values changePASSED
+2022-06-28 20:54:30,052 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify currency values changestarted
+2022-06-28 20:54:33,922 [main] INFO .\src\test\resources\input\log4j.properties - trueis present
+2022-06-28 20:54:33,982 [main] INFO .\src\test\resources\input\log4j.properties - User click on Currency Button
+2022-06-28 20:54:39,755 [main] INFO .\src\test\resources\input\log4j.properties - User click on Euro Currency
+2022-06-28 20:54:44,810 [main] INFO .\src\test\resources\input\log4j.properties - true Euro is present
+2022-06-28 20:54:50,326 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify currency values changePASSED
+2022-06-28 21:02:54,388 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser empty Shopping cart message displaysstarted
+2022-06-28 21:03:12,763 [main] INFO .\src\test\resources\input\log4j.properties - trueis present
+2022-06-28 21:03:14,487 [main] INFO .\src\test\resources\input\log4j.properties - User Click on Shopping Cart Button
+2022-06-28 21:03:14,542 [main] INFO .\src\test\resources\input\log4j.properties - Your shopping cart is empty!matchesYour shopping cart is empty!
+2022-06-28 21:03:14,785 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser empty Shopping cart message displaysPASSED
+2022-07-03 11:13:08,782 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify all items are present in Desktops tabstarted
+2022-07-03 11:13:13,176 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-07-03 11:13:15,750 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add Canon EOS 5D from Desktops tab to the cartstarted
+2022-07-03 11:13:18,216 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add a review to Canon EOS 5D item in Desktops tabstarted

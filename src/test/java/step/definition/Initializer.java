@@ -1,6 +1,5 @@
 package step.definition;
 
-import org.apache.log4j.Logger;
 
 //its important to import core.Base not other imports
 import core.Base;

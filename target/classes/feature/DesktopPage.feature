@@ -1,4 +1,4 @@
-
+@desktop
 Feature: Desktops Tab 
 
 

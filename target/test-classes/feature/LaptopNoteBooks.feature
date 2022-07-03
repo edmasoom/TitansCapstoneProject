@@ -18,21 +18,23 @@ And User click on cart option
 And user click on red X button to remove the item from cart
 Then item should be removed and cart should show '0 item(s) - $0.00'
 
+#Partially Passed: 
+
 
 Scenario: Product Comparison 
-And User click on product comparison icon on 'MacBook'
-And User click on product comparison icon on 'MacBook Air'
+And User click on product comparison icon on Mac 'MacBook'
+And User click on product comparison icon on MacAir 'MacBook Air'
 Then User should see a message MacAir 'Success: You have added MacBook Air to your product comparison!'
 And User click on Product comparison link 
 Then User should see Product Comparison Chart
 
-
+#Passed
 Scenario: Adding an item to Wish list   
-And User click on heart icon to add ‘Sony VaIO’ laptop to wish list 
+And User click on heart icon to add 'Sony VAIO' laptop to wish list 
 Then User should get a message sony 'You must login or create an account to save Sony VAIO to your wish list!'
 
-
+#Passed
 Scenario: Validate the price of MacBook Pro is 2000   
-And User click on ‘MacBook Pro’ item 
-Then User should see  ‘$2,000.00’ price tag is present on UI.
+And User click on 'MacBook Pro' item 
+Then User should see  '$2,000.00' price tag is present on UI.
 
