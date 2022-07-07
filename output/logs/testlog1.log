@@ -1538,3 +1538,152 @@
 2022-07-03 11:13:13,176 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
 2022-07-03 11:13:15,750 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add Canon EOS 5D from Desktops tab to the cartstarted
 2022-07-03 11:13:18,216 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add a review to Canon EOS 5D item in Desktops tabstarted
+2022-07-03 11:16:56,484 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add HP LP 3065 from Desktops tab to the cartstarted
+2022-07-03 11:17:09,323 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-03 11:17:09,493 [main] INFO .\src\test\resources\input\log4j.properties - User click on Desktop tab
+2022-07-03 11:17:10,356 [main] INFO .\src\test\resources\input\log4j.properties - User click on all desktop items list
+2022-07-03 11:17:17,244 [main] INFO .\src\test\resources\input\log4j.properties - User click on add to cart button
+2022-07-03 11:17:17,365 [main] INFO .\src\test\resources\input\log4j.properties - User click one1
+2022-07-03 11:17:17,436 [main] INFO .\src\test\resources\input\log4j.properties - User click on add to cart button
+2022-07-03 11:17:17,782 [main] INFO .\src\test\resources\input\log4j.properties - Success: you have added HP LP3065 to your Shopping cart! Matches Success: you have added HP LP3065 to your Shopping cart!
+2022-07-03 11:17:18,185 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add HP LP 3065 from Desktops tab to the cartPASSED
+2022-07-03 11:22:42,947 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add Canon EOS 5D from Desktops tab to the cartstarted
+2022-07-03 11:22:55,081 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-03 11:22:55,243 [main] INFO .\src\test\resources\input\log4j.properties - User click on Desktop tab
+2022-07-03 11:22:56,230 [main] INFO .\src\test\resources\input\log4j.properties - User click on all desktop items list
+2022-07-03 11:23:01,303 [main] INFO .\src\test\resources\input\log4j.properties - User click on Canon EOS5D
+2022-07-03 11:23:04,254 [main] INFO .\src\test\resources\input\log4j.properties - User click on red color
+2022-07-03 11:23:04,430 [main] INFO .\src\test\resources\input\log4j.properties - User click one1
+2022-07-03 11:23:04,524 [main] INFO .\src\test\resources\input\log4j.properties - User click on add to cart button
+2022-07-03 11:23:05,065 [main] INFO .\src\test\resources\input\log4j.properties - Actual messageSuccess: You have added Canon EOS 5D Camera to your shopping cart! expectedSuccess: You have added Canon EOS 5D Camera to your shopping cart!
+2022-07-03 11:23:05,340 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add Canon EOS 5D from Desktops tab to the cartPASSED
+2022-07-06 21:05:58,824 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your affiliate information from Cheque payment method to Bank Transferstarted
+2022-07-06 21:06:50,473 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:06:50,536 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:06:50,866 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:06:51,070 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailayan@test.comuser enter password 12345
+2022-07-06 21:06:51,605 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:07:58,471 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferFAILED
+2022-07-06 21:11:09,336 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your affiliate information from Cheque payment method to Bank Transferstarted
+2022-07-06 21:11:15,652 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:11:15,716 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:11:16,045 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:11:16,298 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailbareen@bareen.comuser enter password 12345
+2022-07-06 21:11:16,924 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:11:17,001 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:11:47,243 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your affiliate information from Cheque payment method to Bank TransferFAILED
+2022-07-06 21:13:31,222 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:13:45,997 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:13:46,056 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:13:46,384 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:13:46,615 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailbareen@bareen.comuser enter password 12345
+2022-07-06 21:13:47,382 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:13:47,424 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:13:54,704 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:14:24,930 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:14:28,015 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:14:35,333 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:14:35,401 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:14:35,730 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:14:35,937 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailbareen@bareen.comuser enter password 12345
+2022-07-06 21:14:36,614 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:14:36,663 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:14:43,294 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:14:43,515 [main] INFO .\src\test\resources\input\log4j.properties - actual messagetrue equalsSuccess: Your account has been successfully updated.
+2022-07-06 21:14:48,747 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationPASSED
+2022-07-06 21:15:26,287 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:15:29,702 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:15:29,765 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:15:30,073 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:15:30,297 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailbareen@bareen.comuser enter password 12345
+2022-07-06 21:15:30,779 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:16:01,020 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:16:47,863 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:16:51,337 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:16:51,419 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:16:51,807 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:16:52,020 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailbareen@bareen.comuser enter password 12345
+2022-07-06 21:16:52,874 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:17:03,645 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:17:12,258 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:17:15,369 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:17:15,450 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:17:15,817 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:17:16,075 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailbareen@bareen.comuser enter password 12345
+2022-07-06 21:17:16,687 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:17:26,033 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:19:10,466 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:19:13,169 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:19:13,244 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:19:13,540 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:19:13,738 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:19:14,222 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:19:14,284 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:19:20,862 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:19:51,165 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:19:54,696 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:19:57,817 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:19:57,900 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:19:58,362 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:19:58,686 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:19:59,284 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:19:59,338 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:20:05,910 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:20:36,259 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:21:26,869 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:21:30,070 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:21:30,131 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:21:30,438 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:21:30,643 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:21:31,173 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:21:31,221 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:21:37,697 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:21:37,924 [main] INFO .\src\test\resources\input\log4j.properties - actual messagetrue equalsSuccess: Your account has been successfully updated.
+2022-07-06 21:21:43,131 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationPASSED
+2022-07-06 21:25:21,093 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:25:24,852 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:25:24,910 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:25:25,233 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:25:25,435 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:25:25,891 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:25:40,414 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationFAILED
+2022-07-06 21:26:30,898 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:26:34,819 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:26:34,914 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:26:35,362 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:26:35,601 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:26:36,218 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:26:36,276 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:26:43,177 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:26:43,415 [main] INFO .\src\test\resources\input\log4j.properties - actual messagetrue equalsSuccess: Your account has been successfully updated.
+2022-07-06 21:26:48,639 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationPASSED
+2022-07-06 21:26:50,358 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:26:53,615 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:26:53,718 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:26:54,086 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:26:54,352 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:26:54,908 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:26:54,966 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:27:01,428 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:27:01,687 [main] INFO .\src\test\resources\input\log4j.properties - actual messagetrue equalsSuccess: Your account has been successfully updated.
+2022-07-06 21:27:06,843 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationPASSED
+2022-07-06 21:27:13,624 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:27:16,183 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:27:16,268 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:27:16,629 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:27:16,943 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:27:17,493 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:27:17,543 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:27:24,078 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:27:24,300 [main] INFO .\src\test\resources\input\log4j.properties - actual messagetrue equalsSuccess: Your account has been successfully updated.
+2022-07-06 21:27:29,554 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationPASSED
+2022-07-06 21:27:36,170 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-07-06 21:27:38,676 [main] INFO .\src\test\resources\input\log4j.properties - User is on retail website
+2022-07-06 21:27:38,771 [main] INFO .\src\test\resources\input\log4j.properties - User click on myAccount button
+2022-07-06 21:27:39,108 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:27:39,381 [main] INFO .\src\test\resources\input\log4j.properties - user enter emailedrees@ed.comuser enter password 12345
+2022-07-06 21:27:39,893 [main] INFO .\src\test\resources\input\log4j.properties - User click on longin button
+2022-07-06 21:27:39,950 [main] INFO .\src\test\resources\input\log4j.properties - User is on my Account page
+2022-07-06 21:27:46,384 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue button
+2022-07-06 21:27:46,610 [main] INFO .\src\test\resources\input\log4j.properties - actual messagetrue equalsSuccess: Your account has been successfully updated.
+2022-07-06 21:27:51,825 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account InformationPASSED

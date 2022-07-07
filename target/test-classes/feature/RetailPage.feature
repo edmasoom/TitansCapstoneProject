@@ -7,7 +7,7 @@ Background:
 Given User is on Retail Website 
 And User click on MyAccount 
 When User click on Login 
-And User enter username 'ayan@test.com' and password '12345' 
+And User enter username 'edrees@ed.com' and password '12345' 
 And User click on Login button 
 Then User should be logged in to MyAccount dashboard 
 
@@ -33,10 +33,11 @@ And User click on Continue button
 Then User should see a success message 
 
 #passed
+@test
 Scenario: Edit your account Information 
 When User clic on 'Edit your account information' link 
 And User modify below information 
 |firstName|lastName|email|telephone|
-|Walid|Mahammod|new@yahoo.com|121212|
+|Walid|Mahammod|edrees@ed.com|121212|
 And User click on Continue button 
 Then User should see a message retail 'Success: Your account has been successfully updated.' 
